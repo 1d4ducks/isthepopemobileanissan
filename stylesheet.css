@@ -13,16 +13,18 @@ body {
 }
 
 header {
-  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 header h1 {
-  font-size: 5rem;
-  font-weight: bold;
   margin: 0;
 }
 
