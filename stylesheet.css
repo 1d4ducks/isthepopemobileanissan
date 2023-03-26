@@ -32,3 +32,15 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  font-family: monospace;
+  color: #fff;
+  font-size: 0.8rem;
+}
